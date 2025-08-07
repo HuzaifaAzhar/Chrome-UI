@@ -39,15 +39,15 @@ export default function ChromeBrowser() {
 
   const [shortcuts] = useState<Shortcut[]>([
     {
-      id: 'creepjs',
-      name: 'CreepJS',
+      id: 'huzaifa',
+      name: 'HuzaifaJS',
       icon: '🔍',
       color: 'bg-pink-500'
     },
     {
-      id: 'v0',
-      name: 'v0',
-      icon: 'v0',
+      id: 'virtoxed',
+      name: 'Virtoxed',
+      icon: 'vt',
       color: 'bg-purple-500'
     },
     {
