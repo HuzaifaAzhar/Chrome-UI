@@ -32,43 +32,30 @@ This implementation matches the provided Chrome New Tab screenshot including:
 ## How to Run Locally
 
 1. **Clone the repository**
-   \`\`\`bash
+
    git clone <repository-url>
-   cd chrome-UI
-   \`\`\`
+
 
 2. **Install dependencies**
-   \`\`\`bash
+   
    npm install
    # or
    yarn install
    # or
    pnpm install
-   \`\`\`
+  
 
 3. **Start the development server**
-   \`\`\`bash
+   
    npm run dev
    # or
    yarn dev
    # or
    pnpm dev
-   \`\`\`
+  
 
 4. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000)
-
-## Project Structure
-
-\`\`\`
-├── app/
-│   ├── page.tsx              # Main Chrome New Tab component
-│   ├── layout.tsx            # Root layout
-│   └── globals.css           # Global Tailwind styles
-├── tailwind.config.js        # Tailwind configuration
-├── README.md
-└── package.json
-\`\`\`
 
 ## Key Components
 
